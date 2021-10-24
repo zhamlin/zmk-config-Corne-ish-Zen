@@ -43,9 +43,9 @@
                 numpad_layer {
                         label = "NUMPAD";
                         bindings = < 
-   &kp TAB     &none &none &kp LBRC &kp RBRC  &kp PIPE    &kp KP_EQUAL    &kp N7 &kp N8 &kp N9 &kp MINUS &kp BSPC
-   &kp KP_NLCK &none &none &kp LPAR &kp RPAR  &kp GRAVE   &kp KP_ASTERISK &kp N4 &kp N5 &kp N6 &kp PLUS  &none
-   &sk LSHFT   &none &none &kp LBKT &kp RBKT  &kp TILDE   &kp KP_SLASH    &kp N1 &kp N2 &kp N3 &kp ENTER &none
+   &kp TAB     &none &none &kp LBRC &kp RBRC  &kp PIPE    &kp KP_EQUAL    &mt AMPS N7    &mt STAR N8    &kp N9       &kp MINUS &kp BSPC
+   &kp KP_NLCK &none &none &kp LPAR &kp RPAR  &kp GRAVE   &kp KP_ASTERISK &mt DOLLAR N4  &mt PERCENT N5 &mt CARET N6 &kp PLUS  &none
+   &sk LSHFT   &none &none &kp LBKT &kp RBKT  &kp TILDE   &kp KP_SLASH    &mt EXCL N1    &mt AT N2      &mt HASH N3  &kp ENTER &none
               &mo CONFIG &kp LCTL &mo NUMROW    &kp SPC &kp N0 &kp DOT
                         >;
                 };
