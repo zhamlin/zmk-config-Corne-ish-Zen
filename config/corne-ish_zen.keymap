@@ -35,9 +35,9 @@
                 default_layer {
                         label = "QWERTY";
                         bindings = <
-   &mt GUI TAB   &kp Q       &kp W &kp E &kp R &kp T         &kp Y &kp U &kp I    &kp O   &kp P         &mt GUI BSLH
-   &mt LCTRL ESC &as LCTRL A &kp S &kp D &kp F &kp G         &kp H &kp J &kp K    &kp L   &mt LCTL SEMI &kp SQT
-   &sk LSHFT     &mt LSHFT Z &kp X &kp C &kp V &kp B         &kp N &kp M &kp CMMA &kp DOT &kp FSLH      &sk RSFT
+   &mt GUI TAB   &kp Q       &kp W &kp E &kp R &kp T         &kp Y &kp U &kp I       &kp O      &kp P          &mt GUI BSLH
+   &mt LCTRL ESC &as LCTRL A &kp S &kp D &kp F &kp G         &kp H &kp J &kp K       &kp L      &as LCTL SEMI  &kp SQT
+   &sk LSHFT     &mt LSHFT Z &kp X &kp C &kp V &kp B         &kp N &kp M &as LT CMMA &as GT DOT &lt RSFT FSLH  &sk RSFT
                   &kp LALT &kp BSPC &lt NUMPAD SPACE     &lt NUMPAD RET &mo ADJUST &mo CONFIG
                         >;
                 };
@@ -54,10 +54,10 @@
 
                 numpad_layer {
                         label = "NUMPAD";
-                        bindings = < 
-   &kp TAB     &none &none &kp LBRC &kp RBRC  &kp PIPE    &kp KP_EQUAL    &as AMPS N7    &as STAR N8    &kp N9       &kp MINUS &kp BSPC
-   &kp KP_NLCK &none &none &kp LPAR &kp RPAR  &kp GRAVE   &kp KP_ASTERISK &as DOLLAR N4  &as PERCENT N5 &as CARET N6 &kp PLUS  &none
-   &sk LSHFT   &none &none &kp LBKT &kp RBKT  &kp TILDE   &kp KP_SLASH    &as EXCL N1    &as AT N2      &as HASH N3  &kp ENTER &none
+                        bindings = <
+   &kp TAB   &none   &none   &kp LBRC &kp RBRC  &kp PIPE    &kp KP_EQUAL    &as AMPS N7    &as STAR N8    &kp N9       &kp MINUS &kp BSPC
+   &kp &none &kp SQT &kp DQT &kp LPAR &kp RPAR  &kp GRAVE   &kp KP_ASTERISK &as DOLLAR N4  &as PERCENT N5 &as CARET N6 &kp PLUS  &none
+   &sk LSHFT &none   &none   &kp LBKT &kp RBKT  &kp TILDE   &kp KP_SLASH    &as EXCL N1    &as AT N2      &as HASH N3  &kp ENTER &none
               &mo CONFIG &kp LCTL &mo NUMROW    &kp SPC &kp N0 &kp DOT
                         >;
                 };
