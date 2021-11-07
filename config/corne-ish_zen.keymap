@@ -44,7 +44,7 @@
                 default_layer {
                         label = "QWERTY";
                         bindings = <
-   &mt GUI TAB   &kp Q       &kp W &kp E &kp R &kp T         &kp Y &kp U &kp I       &kp O      &kp P          &mt GUI BSLH
+   &mt LGUI TAB  &kp Q       &kp W &kp E &kp R &kp T         &kp Y &kp U &kp I       &kp O      &kp P          &mt RGUI BSLH
    &mt LCTRL ESC &as LCTRL A &kp S &kp D &kp F &kp G         &kp H &kp J &kp K       &kp L      &as LCTL SEMI  &kp SQT
    &sk LSHFT     &mt LSHFT Z &kp X &kp C &kp V &kp B         &kp N &kp M &as LT CMMA &as GT DOT &mt RSFT FSLH  &sk RSFT
                   &kp LALT &kp BSPC &lt NUMPAD SPACE     &lt NUMPAD RET &mo ADJUST &mo CONFIG
